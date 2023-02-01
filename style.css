@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+    background-color: blue;
+    color: white;
+}
+.topo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topo span{
+    font-size: 36px;
+}
+.capa{
+    background-image: url('img/bannertv-ps5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+
+}
+h3{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.img-jogos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% ;
+}
+.img-jogos img{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100%/3 - 10px);
+    margin: 5px;
+    margin-bottom: 60px;
+}
+img:hover{
+    border: 8px solid blue;
+}
+footer{
+    height: 10vh;
+    background-color: blue;
+    color: white;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    font-size: 26px;
+}
